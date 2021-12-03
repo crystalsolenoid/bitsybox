@@ -167,6 +167,8 @@ package-debug-LIN: package-debug
 
 package-debug-RPI: package-debug
 
+package-debug-CPI: package-debug
+
 # == CLEAN TARGETS ==
 clean-release:
 	${REMOVE_DIRECTORY} $(BIN_DIR)
