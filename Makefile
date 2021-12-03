@@ -142,6 +142,8 @@ package-release-LIN: package-release
 
 package-release-RPI: package-release
 
+package-release-CPI: package-release
+
 # == DEBUG TARGET ==
 debug: clean-debug build-debug package-debug-${PLATFORM}
 
