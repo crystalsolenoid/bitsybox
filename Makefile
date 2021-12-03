@@ -76,6 +76,7 @@ else
 				# SDL2 library file
 				SDL2_LIB_SRC=libSDL2-2.0.so
 				SDL2_LIB=libSDL2-2.0.so.0
+				JS=nodejs
 			else
 				# == RASPBERRY PI ==
 				PLATFORM=RPI
