@@ -26,7 +26,7 @@ char gameFilePath[256];
 int gameCount = 0;
 
 /* WINDOW */
-#if defined(PLATFORM_RPI) && !defined(BUILD_DEBUG)
+#if (defined(PLATFORM_RPI) || defined(PLATFORM_CPI)) && !defined(BUILD_DEBUG)
 int isFullscreen = 1;
 #else
 int isFullscreen = 0;
